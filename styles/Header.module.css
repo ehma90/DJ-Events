@@ -9,12 +9,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .header a {
+  .header p {
     color: #333;
     margin-right: 20px;
+    cursor: pointer;
   }
   
-  .header a:hover {
+  .header p:hover {
     color: #000;
   }
   .header ul {
@@ -30,8 +31,9 @@
     text-transform: uppercase;
   }
   
-  .logo a {
+  .logo p {
     color: red;
+    cursor: pointer;
   }
   
   @media (max-width: 768px) {
@@ -46,7 +48,7 @@
       text-align: center;
     }
   
-    .header a {
+    .header p {
       margin-right: 0;
     }
   
